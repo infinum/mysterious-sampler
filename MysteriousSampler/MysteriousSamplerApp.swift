@@ -7,7 +7,7 @@ struct MysteriousSamplerApp: App {
             NavigationView {
                 List {
                     Section() {
-                        NavigationLink("File limit") { FileLimitView() }
+                        NavigationLink("Voice count") { VoiceCountView() }
                     }
                     Section() {
                         NavigationLink("Oscillator") { OscillatorView() }

@@ -15,8 +15,8 @@
 		FA58A0E1294D0ECD008DD518 /* OscillatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58A0E0294D0ECD008DD518 /* OscillatorView.swift */; };
 		FA58A0E3294D0EF1008DD518 /* SamplerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58A0E2294D0EF1008DD518 /* SamplerView.swift */; };
 		FA58A0E5294D0F11008DD518 /* SamplerWorksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58A0E4294D0F11008DD518 /* SamplerWorksView.swift */; };
-		FA58A0EA294D1080008DD518 /* FileLimitConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58A0E9294D1080008DD518 /* FileLimitConductor.swift */; };
-		FA58A0EC294D108F008DD518 /* FileLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58A0EB294D108F008DD518 /* FileLimitView.swift */; };
+		FA92FA9A29714DE400CD60DB /* VoiceCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92FA9929714DE400CD60DB /* VoiceCountView.swift */; };
+		FA92FA9C29714E1A00CD60DB /* VoiceCountConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92FA9B29714E1A00CD60DB /* VoiceCountConductor.swift */; };
 		FAF9B41429261F6F0048D956 /* MysteriousSamplerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9B41329261F6F0048D956 /* MysteriousSamplerApp.swift */; };
 		FAF9B41829261F710048D956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF9B41729261F710048D956 /* Assets.xcassets */; };
 		FAF9B425292629C30048D956 /* OscillatorConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9B424292629C30048D956 /* OscillatorConductor.swift */; };
@@ -31,8 +31,8 @@
 		FA58A0E0294D0ECD008DD518 /* OscillatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscillatorView.swift; sourceTree = "<group>"; };
 		FA58A0E2294D0EF1008DD518 /* SamplerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplerView.swift; sourceTree = "<group>"; };
 		FA58A0E4294D0F11008DD518 /* SamplerWorksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplerWorksView.swift; sourceTree = "<group>"; };
-		FA58A0E9294D1080008DD518 /* FileLimitConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLimitConductor.swift; sourceTree = "<group>"; };
-		FA58A0EB294D108F008DD518 /* FileLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLimitView.swift; sourceTree = "<group>"; };
+		FA92FA9929714DE400CD60DB /* VoiceCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCountView.swift; sourceTree = "<group>"; };
+		FA92FA9B29714E1A00CD60DB /* VoiceCountConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCountConductor.swift; sourceTree = "<group>"; };
 		FAF9B41029261F6F0048D956 /* MysteriousSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysteriousSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF9B41329261F6F0048D956 /* MysteriousSamplerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteriousSamplerApp.swift; sourceTree = "<group>"; };
 		FAF9B41729261F710048D956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +91,6 @@
 		FA58A0E6294D103F008DD518 /* Part1 */ = {
 			isa = PBXGroup;
 			children = (
-				FA58A0E8294D1053008DD518 /* FileLimit */,
 				FA58A0E7294D104B008DD518 /* VoiceCount */,
 			);
 			path = Part1;
@@ -100,17 +99,10 @@
 		FA58A0E7294D104B008DD518 /* VoiceCount */ = {
 			isa = PBXGroup;
 			children = (
+				FA92FA9929714DE400CD60DB /* VoiceCountView.swift */,
+				FA92FA9B29714E1A00CD60DB /* VoiceCountConductor.swift */,
 			);
 			path = VoiceCount;
-			sourceTree = "<group>";
-		};
-		FA58A0E8294D1053008DD518 /* FileLimit */ = {
-			isa = PBXGroup;
-			children = (
-				FA58A0E9294D1080008DD518 /* FileLimitConductor.swift */,
-				FA58A0EB294D108F008DD518 /* FileLimitView.swift */,
-			);
-			path = FileLimit;
 			sourceTree = "<group>";
 		};
 		FAF9B40729261F6F0048D956 = {
@@ -215,11 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA92FA9A29714DE400CD60DB /* VoiceCountView.swift in Sources */,
 				FA58A0E5294D0F11008DD518 /* SamplerWorksView.swift in Sources */,
+				FA92FA9C29714E1A00CD60DB /* VoiceCountConductor.swift in Sources */,
 				FAF9B425292629C30048D956 /* OscillatorConductor.swift in Sources */,
 				FA492C91292F629C00335723 /* SamplerWorksConductor.swift in Sources */,
-				FA58A0EA294D1080008DD518 /* FileLimitConductor.swift in Sources */,
-				FA58A0EC294D108F008DD518 /* FileLimitView.swift in Sources */,
 				FA58A0E1294D0ECD008DD518 /* OscillatorView.swift in Sources */,
 				FA58A0E3294D0EF1008DD518 /* SamplerView.swift in Sources */,
 				FA492C8D292F5E3A00335723 /* SamplerConductor.swift in Sources */,

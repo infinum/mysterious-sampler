@@ -14,6 +14,9 @@ struct MysteriousSamplerApp: App {
                         NavigationLink("Sampler") { SamplerView() }
                         NavigationLink("Sampler works") { SamplerWorksView() }
                     }
+                    Section() {
+                        NavigationLink("Resonance control") { ResonanceControlView() }
+                    }
                 }
             }
         }

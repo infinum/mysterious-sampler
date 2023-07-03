@@ -17,6 +17,8 @@
 		FA58A0E5294D0F11008DD518 /* SamplerWorksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58A0E4294D0F11008DD518 /* SamplerWorksView.swift */; };
 		FA92FA9A29714DE400CD60DB /* VoiceCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92FA9929714DE400CD60DB /* VoiceCountView.swift */; };
 		FA92FA9C29714E1A00CD60DB /* VoiceCountConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92FA9B29714E1A00CD60DB /* VoiceCountConductor.swift */; };
+		FAC4E7BE2A349CB800B470F1 /* ResonanceControlConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E7BC2A349CB800B470F1 /* ResonanceControlConductor.swift */; };
+		FAC4E7BF2A349CB800B470F1 /* ResonanceControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E7BD2A349CB800B470F1 /* ResonanceControlView.swift */; };
 		FAF9B41429261F6F0048D956 /* MysteriousSamplerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9B41329261F6F0048D956 /* MysteriousSamplerApp.swift */; };
 		FAF9B41829261F710048D956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF9B41729261F710048D956 /* Assets.xcassets */; };
 		FAF9B425292629C30048D956 /* OscillatorConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9B424292629C30048D956 /* OscillatorConductor.swift */; };
@@ -33,6 +35,8 @@
 		FA58A0E4294D0F11008DD518 /* SamplerWorksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplerWorksView.swift; sourceTree = "<group>"; };
 		FA92FA9929714DE400CD60DB /* VoiceCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCountView.swift; sourceTree = "<group>"; };
 		FA92FA9B29714E1A00CD60DB /* VoiceCountConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCountConductor.swift; sourceTree = "<group>"; };
+		FAC4E7BC2A349CB800B470F1 /* ResonanceControlConductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResonanceControlConductor.swift; sourceTree = "<group>"; };
+		FAC4E7BD2A349CB800B470F1 /* ResonanceControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResonanceControlView.swift; sourceTree = "<group>"; };
 		FAF9B41029261F6F0048D956 /* MysteriousSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysteriousSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF9B41329261F6F0048D956 /* MysteriousSamplerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteriousSamplerApp.swift; sourceTree = "<group>"; };
 		FAF9B41729261F710048D956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +109,15 @@
 			path = VoiceCount;
 			sourceTree = "<group>";
 		};
+		FAC4E7BB2A349C6400B470F1 /* Part3 */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4E7BC2A349CB800B470F1 /* ResonanceControlConductor.swift */,
+				FAC4E7BD2A349CB800B470F1 /* ResonanceControlView.swift */,
+			);
+			path = Part3;
+			sourceTree = "<group>";
+		};
 		FAF9B40729261F6F0048D956 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +139,7 @@
 			children = (
 				FA58A0E6294D103F008DD518 /* Part1 */,
 				FA58A0DD294D0E79008DD518 /* Part2 */,
+				FAC4E7BB2A349C6400B470F1 /* Part3 */,
 				FA492C942930B26800335723 /* EXS Factory Samples */,
 				FA492C922930B1B900335723 /* Test Instrument.aupreset */,
 				FAF9B41329261F6F0048D956 /* MysteriousSamplerApp.swift */,
@@ -209,8 +223,10 @@
 			files = (
 				FA92FA9A29714DE400CD60DB /* VoiceCountView.swift in Sources */,
 				FA58A0E5294D0F11008DD518 /* SamplerWorksView.swift in Sources */,
+				FAC4E7BF2A349CB800B470F1 /* ResonanceControlView.swift in Sources */,
 				FA92FA9C29714E1A00CD60DB /* VoiceCountConductor.swift in Sources */,
 				FAF9B425292629C30048D956 /* OscillatorConductor.swift in Sources */,
+				FAC4E7BE2A349CB800B470F1 /* ResonanceControlConductor.swift in Sources */,
 				FA492C91292F629C00335723 /* SamplerWorksConductor.swift in Sources */,
 				FA58A0E1294D0ECD008DD518 /* OscillatorView.swift in Sources */,
 				FA58A0E3294D0EF1008DD518 /* SamplerView.swift in Sources */,
